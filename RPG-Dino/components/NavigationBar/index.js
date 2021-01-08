@@ -21,7 +21,7 @@ const styles = ExtendedStyleSheet.create({
   text: {
     fontFamily: 'AdobeGararamondPro-Bold',
     fontWeight: '200',
-    color: '#0FF',
+    color: '#FFF',
     fontSize: '$bigFont'
   }
 });
