@@ -1,12 +1,11 @@
 exports.questionIcon = require('./images/questionIcon.png');
 exports.coinsIcon = require('./images/coinsIcon.png');
-exports.coinsIconCircle = require('./images/coinsIconCircle.png');
+exports.coinsIconCircle = require('./images/coinsIcon.png');
 exports.closeIcon = require('./images/closeIcon.png');
 exports.energyIcon = require('./images/energyIcon.png');
 exports.healthIcon = require('./images/healthIcon.png');
 exports.undoIcon = require('./images/undoIcon.png');
 exports.acceptIcon = require('./images/acceptIcon.png');
 exports.workIcon = require('./images/workIcon.png');
-exports.profileIcon = require('./images/profileIcon.png');
 exports.shopIcon = require('./images/shopIcon.png');
 exports.inventoryIcon = require('./images/inventoryIcon.png');

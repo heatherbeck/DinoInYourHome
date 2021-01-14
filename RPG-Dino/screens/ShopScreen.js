@@ -8,14 +8,14 @@ import {
   TouchableOpacity
 } from 'react-native';
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
-import ListItem from '../components/ListItem';
-import List from '../components/List';
-import Icon from '../components/Icon';
-import NavigationBar from '../components/NavigationBar';
-import { supplies, food, drink } from '../misc/shop';
-import * as expandableTables from '../constants/expandableTables';
-import withExpandableTables from '../HOC/withExpandableTables';
-import withModal from '../HOC/withModal';
+import ListItem from '../RPG-Dino/components/ListItem';
+import List from '../RPG-Dino/components/List';
+import Icon from '../RPG-Dino/components/Icon';
+import NavigationBar from "./RPG-Dino/components/NavigationBar/NavigationBar";
+import { supplies, food, drink } from '../RPG-Dino/misc/shop';
+import * as expandableTables from '../RPG-Dino/constants/expandableTables';
+import withExpandableTables from '../RPG-Dino/HOC/withExpandableTables';
+import withModal from '../RPG-Dino/HOC/withModal';
 import { compose } from 'redux';
 
 class ShopScreen extends Component {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Image, Dimensions } from 'react-native';
-import styles from './styles';
+import styles from './RPG-Dino/styles';
 
 const height = Dimensions.get('window').height;
 const width = Dimensions.get('window').width;

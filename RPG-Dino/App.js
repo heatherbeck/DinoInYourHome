@@ -1,7 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- */
 import { TabNavigator, TabBarBottom } from 'react-navigation';
 import React, { Component } from 'react';
 import {
@@ -12,17 +8,17 @@ import {
   Dimensions,
   PixelRatio
 } from 'react-native';
-import CareScreen from './screens/CareScreen';
-import WorkScreen from './screens/JobsScreen';
+import CareScreen from './RPG-Dino/screens/CareScreen';
+import WorkScreen from './RPG-Dino/screens/JobsScreen';
 
-import CustomStatusBar from './components/StatusBar';
-import NavigationBar from './components/NavigationBar';
-import InventoryScreen from './screens/InventoryScreen';
+import CustomStatusBar from './RPG-Dino/components/StatusBar';
+import NavigationBar from "./RPG-Dino/components/NavigationBar/NavigationBar";
+import InventoryScreen from './RPG-Dino/screens/InventoryScreen';
 import { Provider } from 'react-redux';
 import { store, persistor } from './store';
 import { PersistGate } from 'redux-persist/lib/integration/react';
-import ShopScreen from './screens/ShopScreen';
-import CustomSplashScreen from './components/SplashScreen';
+import ShopScreen from './RPG-Dino/screens/ShopScreen';
+import CustomSplashScreen from './RPG-Dino/components/SplashScreen';
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
 import SplashScreen from 'react-native-splash-screen';
 

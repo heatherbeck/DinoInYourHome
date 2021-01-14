@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, Image, Dimensions } from 'react-native';
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import NavigationBar from '../components/NavigationBar';
+import NavigationBar from "./RPG-Dino/components/NavigationBar/NavigationBar";
 import pure from 'recompose/pure';
 const ShopScreen = ({ navigation }) => (
   <View style={styles.container}>

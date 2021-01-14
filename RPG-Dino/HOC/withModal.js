@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Modal from '../components/Modal';
+import Modal from '../RPG-Dino/components/Modal';
 import { View, Text } from 'react-native';
-import information from '../misc/information';
+import information from '../RPG-Dino/misc/information';
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
 
 export default WrappedComponent => {

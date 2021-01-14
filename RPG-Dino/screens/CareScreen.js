@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { View, Text, Dimensions, Image, Button } from 'react-native';
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
-import NavigationBar from '../components/NavigationBar';
-import Icon from '../components/Icon';
-import ListItem from '../components/ListItem';
-import Modal from '../components/Modal';
+import Icon from '../RPG-Dino/components/Icon';
+import ListItem from '../RPG-Dino/components/ListItem';
+import Modal from '../RPG-Dino/components/Modal';
+import NavigationBar from "./RPG-Dino/components/NavigationBar/NavigationBar";
 
 class CareScreen extends Component {
   state = {
@@ -59,7 +59,7 @@ class CareScreen extends Component {
             <Text style={[styles.text, { color: '#00ff00', marginRight: 3 }]}>
             
             </Text>
-            {firstText}
+            {"Welcome to the care section! "}
           </Text>
 
           <Text style={styles.text}>{showSecondText && secondText}</Text>

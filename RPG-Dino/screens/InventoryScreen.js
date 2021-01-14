@@ -7,11 +7,11 @@ import {
   ScrollView
 } from 'react-native';
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
-import NavigationBar from '../components/NavigationBar';
-import List from '../components/List';
-import ListItem from '../components/ListItem';
-import inventory from '../misc/inventory';
-import Icon from '../components/Icon';
+import NavigationBar from "./RPG-Dino/components/NavigationBar/NavigationBar";
+import List from '../RPG-Dino/components/List';
+import ListItem from '../RPG-Dino/components/ListItem';
+import inventory from '../RPG-Dino/misc/inventory';
+import Icon from '../RPG-Dino/components/Icon';
 
 const InventoryScreen = ({ navigation }) => (
   <View style={styles.container}>

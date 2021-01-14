@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { View, Text } from 'react-native';
-import ListItem from '../ListItem';
+import ListItem from '../RPG-Dino/ListItem';
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
 
 const List = ({ list, children, style }) => (

@@ -10,6 +10,7 @@ import {
   TextInput
 } from 'react-native';
 import Icon from 'react-native-vector-icons/SimpleLineIcons';
+import NavigationBar from "./RPG-Dino/components/NavigationBar/NavigationBar";
 import PopupDialog from 'react-native-popup-dialog';
 import Modal from 'react-native-simple-modal';
 import RadioForm, {
