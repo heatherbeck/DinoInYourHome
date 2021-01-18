@@ -1,19 +1,23 @@
 import React, { Component } from 'react';
 import {
   View,
-  ScrollView,
   Text,
+  Image,
   Dimensions,
-  TouchableOpacity,
+  ScrollView,
+  TouchableOpacity
 } from 'react-native';
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
 import ListItem from '../components/ListItem';
 import List from '../components/List';
 import Icon from '../components/Icon';
-import { easyJobs, mediumJobs} from '../../RPG-Dino/misc/jobs';
-import withExpandableTables from '../../RPG-Dino/HOC/withExpandableTables';
+import NavigationBar from '../components/NavigationBar';
+import { food, drink } from '../misc/shop';
+import * as expandableTables from '../constants/expandableTables';
+import withExpandableTables from '../HOC/withExpandableTables';
 
-e
+
+
 import withModal from '../../RPG-Dino/HOC/withModal';
 import { compose } from 'redux';
 
@@ -26,7 +30,7 @@ class ShopScreen extends Component {
   };
   render() {
     const { expandedTables, expandTable, openModal } = this.props;
-    const { SUPPLIES, FOOD, DRINK } = expandableTables;
+    const { FOOD, DRINK } = expandableTables;
     return (
       <View style={styles.container}>
         <NavigationBar routeName={this.props.navigation.state.routeName} />

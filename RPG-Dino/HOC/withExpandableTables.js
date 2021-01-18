@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ExtendedStyleSheet from 'react-native-extended-stylesheet';
 import { Animated } from 'react-native';
 import * as expandableTables from '../constants/expandableTables';
 

@@ -87,4 +87,4 @@ const drink = [
 
 ];
 
-export { weapons, food, drink };
+export { food, drink };

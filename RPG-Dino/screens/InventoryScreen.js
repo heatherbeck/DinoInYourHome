@@ -7,11 +7,12 @@ import {
   ScrollView
 } from 'react-native';
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
-
+import NavigationBar from '../components/NavigationBar';
 import List from '../components/List';
 import ListItem from '../components/ListItem';
 import inventory from '../misc/inventory';
 import Icon from '../components/Icon';
+
 
 const InventoryScreen = ({ navigation }) => (
   <View style={styles.container}>

@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {
-  StyleSheet,
-  Text,
-  View,
-  Button,
-  TouchableOpacity,
-  TextInput
-} from 'react-native';
-import Icon from 'react-native-vector-icons/SimpleLineIcons';
+import { View, Text, Dimensions, Image, Button } from 'react-native';
+import ExtendedStyleSheet from 'react-native-extended-stylesheet';
+import NavigationBar from '../components/NavigationBar';
+import Icon from '../components/Icon';
+import ListItem from '../components/ListItem';
+import Modal from '../components/Modal';
 
 
 const radioProps = [

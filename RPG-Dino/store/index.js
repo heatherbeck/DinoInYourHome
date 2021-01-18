@@ -4,6 +4,7 @@ import rootReducer from '../reducers';
 
 
 
+
 const config = {
   key: 'root', // key is required
   storage // storage is now required

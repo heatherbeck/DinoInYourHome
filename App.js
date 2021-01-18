@@ -12,7 +12,7 @@ import CareScreen from './RPG-Dino/screens/CareScreen';
 import JobsScreen from './RPG-Dino/screens/JobsScreen';
 import IntroScreen from './RPG-Dino/screens/IntroScreen';
 import CustomStatusBar from './RPG-Dino/components/StatusBar';
-import NavigationBar from "./RPG-Dino/components/NavigationBar/NavigationBar";
+import NavigationBar from "./RPG-Dino/components/NavigationBar/index";
 import InventoryScreen from './RPG-Dino/screens/InventoryScreen';
 
 import { store, persistor } from './RPG-Dino/store';

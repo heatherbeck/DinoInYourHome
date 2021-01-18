@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, Dimensions, Image, Button } from 'react-native';
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
+import NavigationBar from '../components/NavigationBar/index';
 import Icon from '../components/Icon';
 import ListItem from '../components/ListItem';
 import Modal from '../components/Modal';

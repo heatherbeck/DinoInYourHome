@@ -3,18 +3,20 @@ import {
   View,
   ScrollView,
   Text,
+  Image,
   Dimensions,
   TouchableOpacity,
+  TouchableHighlight
 } from 'react-native';
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
+import NavigationBar from '../components/NavigationBar';
 import ListItem from '../components/ListItem';
 import List from '../components/List';
 import Icon from '../components/Icon';
-import { easyJobs, mediumJobs} from '../../RPG-Dino/misc/jobs';
-import withExpandableTables from '../../RPG-Dino/HOC/withExpandableTables';
-
-import * as expandableTables from '../../RPG-Dino/constants/expandableTables';
-import withModal from '../../RPG-Dino/HOC/withModal';
+import { easyJobs, mediumJobs, hardJobs } from '../misc/jobs';
+import withExpandableTables from '../HOC/withExpandableTables';
+import * as expandableTables from '../constants/expandableTables';
+import withModal from '../HOC/withModal';
 import { compose } from 'redux';
 
 const listItemHeight = Dimensions.get('window').height / 16.675;
