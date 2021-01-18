@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Image, Dimensions } from 'react-native';
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
-import icons from './RPG-Dino/icons';
+import icons from './icons';
 
 const Icon = ({ name, style }) => (
   <Image

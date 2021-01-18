@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import { View, Text, Dimensions, Image, Button } from 'react-native';
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
-import Icon from '../RPG-Dino/components/Icon';
-import ListItem from '../RPG-Dino/components/ListItem';
-import Modal from '../RPG-Dino/components/Modal';
-import NavigationBar from "./RPG-Dino/components/NavigationBar/NavigationBar";
+import Icon from '../components/Icon';
+import ListItem from '../components/ListItem';
+import Modal from '../components/Modal';
 
 class CareScreen extends Component {
   state = {
@@ -43,7 +42,7 @@ class CareScreen extends Component {
       showSecondText,
       showThirdText
     } = this.state;
-    console.log(`secondMessage ${showSecondText} thirdMessage ${showThirdText}`);
+    console.log(`firstMessage ${firstText} secondMessage ${showSecondText} thirdMessage ${showThirdText}`);
     return (
       <View style={styles.container}>
         <NavigationBar routeName={this.props.navigation.state.routeName} />
@@ -68,8 +67,8 @@ class CareScreen extends Component {
         <View>
           <View>
             <Image
-              style={styles.fightIcon}
-              source={require('./fightIcon.png')}
+              style={styles.CareIcon}
+              source={require('./CareIcon.jpg')}
               resizeMode="contain"
             />
           </View>

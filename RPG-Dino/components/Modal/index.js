@@ -6,7 +6,7 @@ import {
   View,
   StyleSheet
 } from 'react-native';
-import Icon from '../RPG-Dino/Icon';
+import Icon from '../Icon';
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
 
 const styles = ExtendedStyleSheet.create({

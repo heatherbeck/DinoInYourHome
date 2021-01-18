@@ -7,14 +7,14 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
-import ListItem from '../RPG-Dino/components/ListItem';
-import List from '../RPG-Dino/components/List';
-import Icon from '../RPG-Dino/components/Icon';
-import { easyJobs, mediumJobs} from '../RPG-Dino/misc/jobs';
-import withExpandableTables from '../RPG-Dino/HOC/withExpandableTables';
-import NavigationBar from "./RPG-Dino/components/NavigationBar/NavigationBar";
-import * as expandableTables from '../RPG-Dino/constants/expandableTables';
-import withModal from '../RPG-Dino/HOC/withModal';
+import ListItem from '../components/ListItem';
+import List from '../components/List';
+import Icon from '../components/Icon';
+import { easyJobs, mediumJobs} from '../../RPG-Dino/misc/jobs';
+import withExpandableTables from '../../RPG-Dino/HOC/withExpandableTables';
+
+import * as expandableTables from '../../RPG-Dino/constants/expandableTables';
+import withModal from '../../RPG-Dino/HOC/withModal';
 import { compose } from 'redux';
 
 const listItemHeight = Dimensions.get('window').height / 16.675;

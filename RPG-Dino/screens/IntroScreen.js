@@ -1,23 +1,14 @@
 import React, { Component } from 'react';
 import {
-  Platform,
   StyleSheet,
   Text,
   View,
   Button,
-  TouchableHighlight,
   TouchableOpacity,
   TextInput
 } from 'react-native';
 import Icon from 'react-native-vector-icons/SimpleLineIcons';
-import NavigationBar from "./RPG-Dino/components/NavigationBar/NavigationBar";
-import PopupDialog from 'react-native-popup-dialog';
-import Modal from 'react-native-simple-modal';
-import RadioForm, {
-  RadioButton,
-  RadioButtonInput,
-  RadioButtonLabel
-} from 'react-native-simple-radio-button';
+
 
 const radioProps = [
   { label: 'CrestedGecko', value: 0 },
