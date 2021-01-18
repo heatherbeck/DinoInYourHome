@@ -3,16 +3,14 @@ import {
   View,
   ScrollView,
   Text,
-  Image,
   Dimensions,
   TouchableOpacity,
-  TouchableHighlight
 } from 'react-native';
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
 import ListItem from '../RPG-Dino/components/ListItem';
 import List from '../RPG-Dino/components/List';
 import Icon from '../RPG-Dino/components/Icon';
-import { easyJobs, mediumJobs, hardJobs } from '../RPG-Dino/misc/jobs';
+import { easyJobs, mediumJobs} from '../RPG-Dino/misc/jobs';
 import withExpandableTables from '../RPG-Dino/HOC/withExpandableTables';
 import NavigationBar from "./RPG-Dino/components/NavigationBar/NavigationBar";
 import * as expandableTables from '../RPG-Dino/constants/expandableTables';
