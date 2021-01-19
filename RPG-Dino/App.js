@@ -1,7 +1,7 @@
 import { TabNavigator, TabBarBottom } from 'react-navigation';
 import React, { Component } from 'react';
 import {
-  StyleSheet,
+
   StatusBar,
   View,
   Text,

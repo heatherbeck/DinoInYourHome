@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Image, Text, Dimensions } from 'react-native';
+import { View, Text, Dimensions } from 'react-native';
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
 import Icon from '../Icon';
 

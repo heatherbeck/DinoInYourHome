@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { StyleSheet, TouchableOpacity, View } from 'react-native';
+import { TouchableOpacity, View } from 'react-native';
+import ExtendedStyleSheet from 'react-native-extended-stylesheet';
 
 const DEFAULT_SIZE_MULTIPLIER = 0.7;
 const DEFAULT_OUTER_BORDER_WIDTH_MULTIPLIER = 0.2;
@@ -38,7 +39,7 @@ class RadioButton extends Component {
   }
 }
 
-const styles = StyleSheet.create({
+const styles = ExtendedStyleSheet.create({
   radio: {
     justifyContent: 'center',
     alignItems: 'center',

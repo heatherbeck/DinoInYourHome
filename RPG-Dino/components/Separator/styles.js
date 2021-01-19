@@ -1,5 +1,5 @@
 import ExtendedStyleSheet from 'react-native-extended-stylesheet';
-import { StyleSheet, Dimensions } from 'react-native';
+import { Dimensions } from 'react-native';
 
 const separatorWidth = Dimensions.get('window').width * 0.785;
 

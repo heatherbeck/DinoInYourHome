@@ -13,7 +13,7 @@ import NavigationBar from '../components/NavigationBar';
 import ListItem from '../components/ListItem';
 import List from '../components/List';
 import Icon from '../components/Icon';
-import { easyJobs, mediumJobs, hardJobs } from '../misc/jobs';
+import { easyJobs, mediumJobs, } from '../misc/jobs';
 import withExpandableTables from '../HOC/withExpandableTables';
 import * as expandableTables from '../constants/expandableTables';
 import withModal from '../HOC/withModal';

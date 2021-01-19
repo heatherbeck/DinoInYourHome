@@ -137,7 +137,7 @@ class IntroScreen extends Component {
   }
 }
 
-const styles = StyleSheet.create({
+const styles = ExtendedStyleSheet.create({
   container: {
     flex: 1,
     marginTop: 50,
